@@ -1,4 +1,65 @@
-body {background-color: #fff;
-color: #2a2a2a;}
+body {
+    background-color: #E5E5E5;
+    color: #757575;
+}
 
-/*   */
+/* WebStudio */
+.logo { 
+    color: #000000;
+}
+.accent { 
+    color: #2196F3;
+} 
+
+/* Site-nav */
+.site-nav a {
+    color: #212121;
+}
+/* Tel шапка */
+.tel  {
+    color: #757575;
+}
+ /* Наведения */
+.site-nav:hover,
+.site-nav:focus,
+.tel:hover,
+.tel:focus {
+color: #2196F3;
+}
+/* h1 Hero */
+.hero-title {
+    color: #FFFFFF;
+}
+/* h2 жирный заголовой */
+.section-title {
+    color: #212121;
+}
+/* h3 Маленький жирный заголовок */
+.title {
+    color: #212121;
+}
+/* Р-папаграф */
+.text {
+    color: #757575;
+}
+
+
+/* цвет эмблеми #000000 */
+
+/*  цвет основного текста #212121 */
+
+/* вторичный цевет текста #757575 */
+
+/* белый цвет #FFFFFF */
+
+/* белый 60%  rgba(255, 255, 255, 0.6);*/
+
+/* акцент #2196F3 */
+
+
+
+
+/* крапки в лишках */
+ul { list-style: none;
+}
+

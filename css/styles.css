@@ -24,6 +24,9 @@ body {
 /* WebStudio */
 .logo { 
     color: var(--logo-color);
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
 }
 .accent { 
     color: var(--accent-color);
@@ -32,57 +35,84 @@ body {
 /* Site-nav */
 .site-nav a {
     color: var(--secont-text-color);
+    font-weight: 500;
+    text-decoration: none;
 }
+ /* Наведения */
+ .site-nav .link:hover,
+ .site-nav .link:focus,
+ .header-contact:hover,
+ .header-contact:focus
+  {
+ color: var(--accent-color);
+ }
+ 
+ .site-nav .link.current {
+     color: var(--accent-color);
+ } 
 /* Tel шапка */
 .header-contact  {
     color: var(--primary-text-color);
-}
- /* Наведения */
-.site-nav :hover,
-.site-nav :focus,
-.header-contact:hover,
-.header-contact:focus {
-color: var(--accent-color);
+    font-weight: 500;
+    text-decoration: none;
 }
 
-.site-nav .link.current {
-    color: var(--accent-color);
-} 
 /* h1 Hero */
 .hero-title {
     color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+}
+/* button */
+.button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
 }
 /* h2 жирный заголовой */
 .section-title {
     color: var(--secont-text-color);
+    font-weight: 700;
+    font-size: 36px;
 }
 /* h3 Маленький жирный заголовок */
-.title {
+.feature .title {
     color: var(--secont-text-color);
+    font-weight: 700;
+    font-size: 14px;
 }
-/* Р-папаграф */
-.text {
-    color: var(--primary-text-color);
+/* Our Team */
+.team .text {
+    font-size: 16px;
 }
+/* footer */
 .footer-logo {
     color: var(--white-color);
+    text-decoration: none;
 }
 .footer-link {
     color: var(--white-color);
+    text-decoration: none;
 }
 .footer-contacts {
     color: var(--third-text-color);
+    text-decoration: none;
 }
 
 /* крапки в лишках */
 ul { list-style: none;
 }
 
-/* button */
-.button {
-    color: var(--white-color);
-    background-color: var(--accent-color);
+.footer-contacts:hover,
+.footer-contacts:focus,
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--accent-color);
 }
+
+
 
 /* .button.primary {
     color: var(--white-color);

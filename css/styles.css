@@ -112,8 +112,26 @@ ul { list-style: none;
     color: var(--accent-color);
 }
 
-
-
+/* page 2 */
+/* filters */
+.filters .filter{
+    color: var(--secont-text-color);
+    font-weight: 500;
+    font-size: 16px;
+}
+.filter:hover,
+.filter:focus{
+    color: var(--accent-color);
+}
+/* Project */
+.project .title{
+    color: var(--secont-text-color);
+    font-weight: 700;
+    font-size: 18px;
+}
+.project .text{
+    font-size: 16px;
+}
 /* .button.primary {
     color: var(--white-color);
     background-color: var(--accent-color);

@@ -118,6 +118,7 @@ ul { list-style: none;
     color: var(--secont-text-color);
     font-weight: 500;
     font-size: 16px;
+    cursor: pointer;
 }
 .filter:hover,
 .filter:focus{

@@ -11,6 +11,7 @@
     --logo-color: #000000;
     --secont-text-color: #212121;
     --accent-color: #2196F3;
+    --accent-bg-color: #2196F3;
     --secont-bg-color: #2F303A;
     --third-text-color: rgba(255,255,255,0.6);
 }
@@ -27,6 +28,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     text-decoration: none;
+    font-family: 'Raleway';
 }
 .accent { 
     color: var(--accent-color);
@@ -58,10 +60,14 @@ body {
 }
 
 /* h1 Hero */
+.hero {
+    background-color: var(--secont-bg-color);
+}
 .hero-title {
     color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
+    text-transform: uppercase;
 }
 /* button */
 .button {
@@ -70,6 +76,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     cursor: pointer;
+    font-family: inherit;
 }
 /* h2 жирный заголовой */
 .section-title {
@@ -82,15 +89,18 @@ body {
     color: var(--secont-text-color);
     font-weight: 700;
     font-size: 14px;
+    text-transform: uppercase;
 }
 /* Our Team */
 .team .text {
+    font-weight: 500;
     font-size: 16px;
 }
 /* footer */
 .footer-logo {
     color: var(--white-color);
     text-decoration: none;
+    
 }
 .footer-link {
     color: var(--white-color);
@@ -99,6 +109,9 @@ body {
 .footer-contacts {
     color: var(--third-text-color);
     text-decoration: none;
+}
+.footer {
+    background-color: var(--secont-bg-color);
 }
 
 /* крапки в лишках */
@@ -114,15 +127,18 @@ ul { list-style: none;
 
 /* page 2 */
 /* filters */
+
 .filters .filter{
     color: var(--secont-text-color);
     font-weight: 500;
     font-size: 16px;
     cursor: pointer;
+    font-family: inherit;
 }
 .filter:hover,
 .filter:focus{
-    color: var(--accent-color);
+    color: var(--white-color);
+    background-color: var(--accent-bg-color);
 }
 /* Project */
 .project .title{

@@ -105,10 +105,12 @@ body {
 .footer-link {
     color: var(--white-color);
     text-decoration: none;
+    font-style: normal;
 }
 .footer-contacts {
     color: var(--third-text-color);
     text-decoration: none;
+    font-style: normal;
 }
 .footer {
     background-color: var(--secont-bg-color);
